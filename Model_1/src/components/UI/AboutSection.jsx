@@ -61,12 +61,12 @@ export default function AboutSection() {
                         {/* Tagline */}
                         <p className="about-line flex items-center gap-3 text-white/50 text-sm mb-10">
                             <span className="text-base">✦</span>
-                            With EXPERTISE + EMPATHY, We shape THE LEADERS OF TOMORROW.
+                            With EMOTION + INNOVATION, We push THE BOUNDARIES OF DIGITAL CREATIVITY.
                         </p>
 
                         {/* Main Text */}
                         <p className="about-line text-3xl md:text-5xl lg:text-6xl font-light leading-[1.15] text-white mb-10">
-                            We are Vertical Eye, a premier partner for Professionalism, Placement & Soft Skills Training.
+                            We are Vertical Eye, a global digital marketing, branding & web design agency.
                         </p>
 
                         <a
@@ -80,7 +80,7 @@ export default function AboutSection() {
 
                     <div className="md:col-span-4 md:pt-16">
                         <p className="about-line text-white/35 text-lg leading-relaxed">
-                            Every career has a trajectory. From students finding their path to professionals refining their presence, we ensure you stand out.
+                            Every brand has a story, from startups finding their voice to titans refining their legacy. We ensure that tale shines brilliantly.
                         </p>
 
                         <a

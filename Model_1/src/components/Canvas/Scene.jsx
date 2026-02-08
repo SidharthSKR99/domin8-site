@@ -19,13 +19,13 @@ export default function Scene() {
                 dpr={[1, 2]}
             >
                 <Suspense fallback={null}>
-                    {/* Standard Lighting - reduced intensity to prevent bloom blowout */}
-                    <ambientLight intensity={0.5} />
+                    {/* Dark Mode Lighting - from bitsandbrains portfolio */}
+                    <ambientLight intensity={0.08} />
 
                     {/* Key Light - Orange brand glow */}
                     <spotLight
                         position={[5, 5, 5]}
-                        intensity={2}
+                        intensity={60}
                         angle={0.6}
                         penumbra={1}
                         color="#E8940A"
@@ -34,21 +34,21 @@ export default function Scene() {
                     {/* Fill Light - Red accent */}
                     <pointLight
                         position={[-4, -2, 3]}
-                        intensity={1.5}
+                        intensity={30}
                         color="#C41E1E"
                     />
 
                     {/* Rim Light - Cool contrast */}
                     <pointLight
                         position={[0, 4, -4]}
-                        intensity={1}
+                        intensity={15}
                         color="#4a00e0"
                     />
 
                     {/* Back Light - Depth */}
                     <pointLight
                         position={[-3, 2, -5]}
-                        intensity={1}
+                        intensity={10}
                         color="#00d4ff"
                     />
 
@@ -64,12 +64,12 @@ export default function Scene() {
                     {/* Post-processing */}
                     <EffectComposer>
                         <Bloom
-                            intensity={0.3}
-                            luminanceThreshold={0.8}
+                            intensity={0.4}
+                            luminanceThreshold={0.3}
                             luminanceSmoothing={0.9}
                             mipmapBlur
                         />
-                        {/* Lusion-style Fluid Distortion - Restored to original high intensity */}
+                        {/* Lusion-style Fluid Distortion */}
                         <Fluid
                             radius={0.3}
                             curl={10}

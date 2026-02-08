@@ -3,33 +3,33 @@ import { motion, useInView } from 'framer-motion'
 
 const projects = [
     {
-        name: "Communication",
-        services: ["Verbal", "Non-Verbal", "Active Listening"],
+        name: "Lando Norris",
+        services: ["Brand & Design", "Development", "WebGL, 3D"],
         image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
     },
     {
-        name: "Gallery",
-        services: ["Workshops", "Events", "Impact"],
+        name: "Aether 1",
+        services: ["Design", "Development", "WebGL, 3D"],
         image: "https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?w=800&h=600&fit=crop",
     },
     {
-        name: "Trainers",
-        services: ["Expertise", "Guidance", "Mentorship"],
+        name: "Bella Kitchenwear",
+        services: ["Design", "Development", "WebGL, 3D"],
         image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop",
     },
     {
-        name: "Body Language",
-        services: ["Psychology", "Observation", "Impact"],
+        name: "Jasper",
+        services: ["Design", "Development", "Motion / Rive"],
         image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=600&fit=crop",
     },
     {
-        name: "Leadership",
-        services: ["Management", "Strategy", "Team Building"],
+        name: "Slack",
+        services: ["Content", "Development", "3D"],
         image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop",
     },
     {
-        name: "Public Speaking",
-        services: ["Confidence", "Presentation", "Storytelling"],
+        name: "Aptos Labs",
+        services: ["Brand", "Development", "WebGL, 3D"],
         image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=600&fit=crop",
     },
 ]
