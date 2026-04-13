@@ -70,6 +70,7 @@ body::-webkit-scrollbar {
   z-index: 1;
   pointer-events: none;
   overflow: hidden;
+  background-color: transparent;
 }
 
 /* Main content wrapper */

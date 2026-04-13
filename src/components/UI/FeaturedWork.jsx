@@ -42,7 +42,7 @@ function WorkCard({ project, index }) {
         <motion.a
             ref={ref}
             href="#"
-            className="group block relative overflow-hidden rounded-lg aspect-[16/10] bg-[#141414]"
+            className="group block relative overflow-hidden rounded-lg aspect-[16/10] bg-transparent"
             initial={{ opacity: 0, y: 50 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, delay: index * 0.1 }}

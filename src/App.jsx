@@ -1,4 +1,4 @@
-
+import Scene from './components/Canvas/Scene'
 import {
   Navbar,
   HeroOverlay,
@@ -12,6 +12,9 @@ import { SmoothScroll } from './components/Layout'
 function App() {
   return (
     <SmoothScroll>
+      {/* 3D Background Cursor Effect */}
+      <Scene />
+
       {/* Noise texture overlay */}
       <div className="noise-overlay" />
 
